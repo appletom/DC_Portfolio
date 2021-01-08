@@ -62,6 +62,29 @@ a {
   color: black;
 }
 
+.navbar {
+  padding: 2px;
+  margin-bottom: 5%;
+  background-color: rgb(208, 225, 225)
+}
+
+.navlist {
+  display: flex;
+  align-items: right;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+
+.navitem {
+
+  font-size: 18pt;
+}
+
+.navitem:hover{
+    transform: scale(1.2);
+}
+
 .resume {
   background-color: white;
   height: 100%;
