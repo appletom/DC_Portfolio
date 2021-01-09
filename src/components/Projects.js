@@ -9,20 +9,17 @@ import candle from '../assets/images/candle.jpg'
 const Projects = () => {
 
     return (
-
+    <div>
     <div className="Projects-container">
 
-        <p>Projects</p>
+        <h3>Projects</h3>
 
         <div className="Projects-slides fade">
-            <div className="numbertext">1 / 3</div>
-                <img src={candle} alt="project-image1" id="project-img"/>
-                    <div className="caption">
-                        image 1
-                    </div>                
+            <div className="numbertext">1 / 1</div>
+            <img src={candle} alt="project-image1" id="project-img"/>
+            <div className="caption">image 1</div>                
 
         </div>
-
 
 
 
@@ -39,6 +36,7 @@ const Projects = () => {
 
     </div>
 
+    </div>
     )
 
 }
