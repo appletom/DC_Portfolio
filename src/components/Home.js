@@ -11,6 +11,7 @@ const Home = () => {
     <div className="Home">
 
         Home
+        <h1> home page</h1>
 
     </div>
 

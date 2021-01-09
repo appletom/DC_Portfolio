@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    height: 90%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  color: #5a5d61;
+  margin-right: 50px;
 }
 
 code {
@@ -12,14 +18,7 @@ code {
     monospace;
 }
 
-body {
-  height: 90%;
-  width: 100%;
-  text-align: center;
-  font-family: 'Heebo', sans-serif;
-  color: #5a5d61;
-  margin-right: 50px;
-}
+
 
 hr {
   width: 50%;
@@ -29,12 +28,12 @@ hr {
 #candleimg {
   background-image: "candle.jpg";
   background-repeat: no-repeat;
-  background-size: cover;
+
   top: 0;
   left: 0;
   opacity: .4;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   position: relative;
   z-index: -12;
 }
@@ -42,19 +41,22 @@ hr {
 .container {
   position: relative;
   text-align: center;
-  
+  font-family: "Sora";
+
 }
 
 .Resumeheader {
   position: absolute;
   width: 80%;
-  height: 60%;
-  top: 8%;
+  height: 40%;
+  top: 18%;
   left: 10%;
-  font-size: 60px;
+  font-size: 50px;
   border-style: solid;
-  border-color: black;
+  border-color:   rgb(117, 163, 163);
+  border-width: 10px;
   opacity: .8;
+
 }
 
 a {
@@ -63,22 +65,21 @@ a {
 }
 
 .navbar {
-  padding: 2px;
-  margin-bottom: 5%;
-  background-color: rgb(208, 225, 225)
+  background-color: rgb(208, 225, 225);
+  margin-bottom: 4%;
 }
 
 .navlist {
   display: flex;
   align-items: right;
-  justify-content: space-around;
+  justify-content: center;
   list-style-type: none;
 
 }
 
 .navitem {
-
-  font-size: 18pt;
+  padding: 3%;
+  font-size: 16pt;
 }
 
 .navitem:hover{
@@ -123,8 +124,110 @@ a {
 }
 
 
+/* ---------- PROJECTS ----------- */
+
+
+
+
+#project-img {
+  max-width: 60vw;
+  display: flex;
+  margin-left: 20%;
+  z-index: -10;
+}
+
+
+/* Slideshow container */
+.Projects-container {
+  max-width: 100vw;
+  position: relative;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  margin: 22%;
+  padding: 16px;
+  top: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.caption {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: rgb(117, 163, 163);
+  padding: 8px 12px;
+  top: 0;
+  left: 50;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 12px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+/* ---------- FOOTER ----------- */
+
+
 .footer {
+  position: relative;
+  margin-top: 10%;
   padding: 50px;
   font-size: 12px;
   line-height: 200%;
+  background-color: rgb(208, 225, 225);
 }

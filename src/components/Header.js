@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
+
 import '../index.css';
 
 import candle from '../assets/images/candle.jpg'
@@ -10,7 +11,7 @@ const Header = () => {
     return (
         <div class="container">
             <div class="Resumeheader">
-                <span><a href="/Home"><h1>Portfolio</h1></a></span>
+                <span><Link to="/"><h1>Portfolio</h1></Link></span>
                     
 
             </div>

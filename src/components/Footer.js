@@ -5,6 +5,8 @@ import '../index.css';
 import heart from '../assets/images/heart.png'
 import linkedin from '../assets/images/linkedin_logo.jpeg'
 import github from '../assets/images/github.png'
+import copywright from '../assets/images/copywright.png'
+
 
 const Footer = () => {
 
@@ -25,7 +27,7 @@ const Footer = () => {
 
         <br/>
         
-        <p><img src="../../public/images/copywright.png" alt="copywright" height="13px" width="13px"/> twentytwenty</p>    
+        <p><img src={copywright} alt="copywright" height="13px" width="13px"/> twentytwenty</p>    
 
         <span>Photo by <a href="https://unsplash.com/@englr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alvin Engler</a> on <a href="https://unsplash.com/collections/1767685/bureau-?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
         
