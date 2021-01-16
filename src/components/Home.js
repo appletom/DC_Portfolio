@@ -8,9 +8,10 @@ const Home = () => {
 
     return (
 
-    <div className="Home">
+    <div className="home">
 
         <h2> Welcome </h2>
+        <p> Browse my resume and projects in the links above, or fill out the contact form and send me a message. Thanks for visiting!</p>
 
     </div>
 

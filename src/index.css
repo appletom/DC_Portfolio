@@ -10,7 +10,7 @@ body {
   text-align: center;
   font-family: 'Heebo', sans-serif;
   color: #5a5d61;
-  margin-right: 50px;
+
 }
 
 code {
@@ -28,12 +28,11 @@ hr {
 #candleimg {
   background-image: "candle.jpg";
   background-repeat: no-repeat;
-
   top: 0;
   left: 0;
-  opacity: .4;
+  opacity: .7;
   width: 100%;
-  height: 90vh;
+  height: 60vh;
   position: relative;
   z-index: -12;
 }
@@ -48,13 +47,9 @@ hr {
 .Resumeheader {
   position: absolute;
   width: 80%;
-  height: 40%;
-  top: 18%;
+  top: 10%;
   left: 10%;
-  font-size: 50px;
-  border-style: solid;
-  border-color:   rgb(117, 163, 163);
-  border-width: 10px;
+  font-size: 30px;
   opacity: .8;
 
 }
@@ -65,21 +60,25 @@ a {
 }
 
 .navbar {
-  background-color: rgb(208, 225, 225);
-  margin-bottom: 4%;
+  background-color: white;
+
 }
 
 .navlist {
   display: flex;
-  align-items: right;
-  justify-content: center;
+  justify-content: column;
   list-style-type: none;
-
 }
+
 
 .navitem {
   padding: 3%;
   font-size: 16pt;
+
+}
+
+.Portfolio {
+  padding-bottom: 6%;
 }
 
 .navitem:hover{
@@ -87,23 +86,33 @@ a {
 }
 
 .resume {
-  background-color: white;
-  height: 100%;
-  padding: 10px 40px 40px;
-  border-style: solid;
-  border-color: black;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 50px;
-}
+  margin-top: 5%;
 
-.section {
-  padding: 10px;
-  line-height: 20px;
 }
 
 .profile {
-  padding-top: 10px;
+  background-color: white;
+  height: 100%;
+  padding: 10px 80px 50px;
+  border-style: solid;
+  border-color: lightgrey;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 5%;
+  max-width: 860px;
+  min-width: 200px;
+}
+
+
+
+.section {
+  padding: 5px;
+  line-height: 25px;
+
+}
+
+.profile {
+  padding-top: 5px;
   
 }
 
@@ -126,14 +135,24 @@ a {
 
 /* ---------- PROJECTS ----------- */
 
+.Projects-slides {
+  margin-top: 2%;
+  
+}
 
 
+.Projects-slides > img{
+  border: solid;
+  border-color: lightgrey;
+}
 
 #project-img {
   max-width: 60vw;
-  display: flex;
-  margin-left: 20%;
+  display: flex-start;
+  align-items: center;
+  justify-content: column;
   z-index: -10;
+  padding: 2%;
 }
 
 
@@ -141,9 +160,13 @@ a {
 .Projects-container {
   max-width: 100vw;
   position: relative;
-
+  margin-top: 5%;  
 }
-
+/* 
+.Projects-slides {
+  display: none;
+}
+ */
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -177,13 +200,20 @@ a {
 
 /* Caption text */
 .caption {
-  color: #f2f2f2;
-  font-size: 25px;
+/*  color: #f2f2f2; */
+  color: black;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 80px;
+  position: relative;
+  bottom: 0px;
   width: 100%;
   text-align: center;
+  margin-bottom: 5%;
+
+}
+
+
+a:hover {
+  color: gray;
 }
 
 /* Number text (1/3 etc) */
@@ -218,7 +248,46 @@ a {
   animation-duration: 1.5s;
 }
 
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.dot-div {
+  text-align: center;
+}
+
+
+/* ---------- HOME ----------- */
+
+.home {
+  margin-left: 25%;
+  max-width: 50%;
+
+}
+
+
+/* ---------- CONTACT ----------- */
+
+.contact{
+  margin: 5%;
+}
+
+.contact h2{
+  margin-bottom: 3%;
+}
+
+input {
+  margin: 1%;
+  padding: 1%;
+  width: 30%;
+}
 
 /* ---------- FOOTER ----------- */
 
@@ -226,8 +295,12 @@ a {
 .footer {
   position: relative;
   margin-top: 10%;
-  padding: 50px;
-  font-size: 12px;
+  padding-top: 3%;
+  font-size: 13px;
   line-height: 200%;
   background-color: rgb(208, 225, 225);
+}
+
+.footer > a {
+  padding: 8px;
 }

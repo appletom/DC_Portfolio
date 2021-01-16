@@ -17,17 +17,17 @@ const Footer = () => {
         <p>Made with <img src={heart} alt="heart" height="15px" width="15px"/></p>
 
             
-        <a href="">
-            <img src={linkedin} alt="LinkedInLogo" height="25px" width="25px"/>
+        <a href="www.linkedin.com/phommasak-christy">
+            <img src={linkedin} alt="LinkedInLogo" height="30px" width="30px"/>
         </a>
 
         <a href="https://github.com/appletom">
-            <img src={github} alt="githublogo" height="25px" width="25px"/>
+            <img src={github} alt="githublogo" height="30px" width="30px"/>
         </a>
 
         <br/>
         
-        <p><img src={copywright} alt="copywright" height="13px" width="13px"/> twentytwenty</p>    
+        <p><img src={copywright} alt="copywright" height="13px" width="13px"/> twentytwentyone</p>    
 
         <span>Photo by <a href="https://unsplash.com/@englr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alvin Engler</a> on <a href="https://unsplash.com/collections/1767685/bureau-?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
         

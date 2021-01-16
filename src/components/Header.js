@@ -11,24 +11,23 @@ const Header = () => {
     return (
         <div class="container">
             <div class="Resumeheader">
-                <span><Link to="/"><h1>Portfolio</h1></Link></span>
+            <div className="navbar">
+
+                <ul className="navlist">
+                    <li className="navitem"><Link to="/Resume">Resume</Link></li>
+                    <li className="navitem"><Link to="/Projects">Projects</Link></li>
+                    <li className="navitem"><Link to="/Contact">Contact</Link></li>
                     
+                </ul>
+                <Link to="/"><h2 className="Portfolio">Christy Phommasak</h2></Link>
+
+                </div>                    
 
             </div>
 
             <div>
                 <img src={candle} alt="candle" id="candleimg"/>
             </div>
-
-            <div className="navbar">
-            <ul className="navlist">
-                <li className="navitem"><Link to="/Resume">Resume</Link></li>
-                <li className="navitem"><Link to="/Projects">Projects</Link></li>
-                <li className="navitem"><Link to="/About">About</Link></li>
-            </ul>
-            </div>
-
-
         </div>
 
     )

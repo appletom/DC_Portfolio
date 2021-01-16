@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
-import About from './components/About';
+import Contact from './components/Contact';
 
 import './index.css';
 
@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/" component={Home} /> 
           <Route exact path="/Resume" component={Resume} />                        
           <Route exact path="/Projects" component={Projects} />         
-          <Route exact path="/About" component={About} />                             
+          <Route exact path="/Contact" component={Contact} />                             
         </Switch>
 
       </main>
