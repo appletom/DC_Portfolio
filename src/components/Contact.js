@@ -25,17 +25,18 @@ const Contact = () => {
             Your Email:<br/>
             <input type="email" name="Contact-Email"/><br/><br/> 
             Your Message:<br/> 
-            <textarea name="Contact-Message" rows="8" cols="60">
+            <textarea name="Contact-Message" rows="8" cols="40">
             </textarea><br/><br/> 
-            <button type="submit" value="Submit">Send</button>
+            <button type="submit" value="Submit" className="sendBtn">Send</button>
             
         </form>
+
         <a href="www.linkedin.com/phommasak-christy">
-            <img src={linkedin} alt="LinkedInLogo" height="30px" width="30px"/>
+            <img src={linkedin} alt="LinkedInLogo" height="40px" width="40px" className="contactBtn"/>
         </a>
 
         <a href="https://github.com/appletom">
-            <img src={github} alt="githublogo" height="30px" width="30px"/>
+            <img src={github} alt="githublogo" height="40px" width="40px" className="contactBtn"/>
         </a>
 
     </div>

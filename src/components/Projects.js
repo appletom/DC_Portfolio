@@ -68,7 +68,7 @@ const Projects = () => {
                 <img src={dashboard} alt="project-image2" id="project-img"/>
             <div className="caption">
                 <h2>YourDashboard</h2>
-                <p>Displays a home dashboard to show weather by zip code, New York Times articles and dad jokes API</p>
+                <p>Displays a home dashboard to show weather by zip code, New York Times articles and dad jokes API.</p>
                 <p><Link to="https://github.com/LewRit/YourDashboard">Link to github</Link></p>
             </div>                
         </div>

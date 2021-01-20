@@ -24,6 +24,12 @@ const Resume = () => {
         <div>
 
         <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>   
 
         <div class="section">
             <h3>Education</h3>
@@ -46,6 +52,12 @@ const Resume = () => {
         </div>
 
         <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>   
 
         <div class="section">
             <h3>Professional Experience</h3>
@@ -74,7 +86,13 @@ const Resume = () => {
         </div>
 
         <hr/>
-
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>
+        <hr/>   
+        
         <div class="section" >
             <h3>Community Involvement</h3>
                 <li>Rebuild Houston</li>
