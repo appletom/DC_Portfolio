@@ -1,6 +1,9 @@
 import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
+import linkedin from '../assets/images/linkedin_logo.jpeg'
+import github from '../assets/images/github.png'
+
 import '../index.css';
 
 
@@ -27,6 +30,13 @@ const Contact = () => {
             <button type="submit" value="Submit">Send</button>
             
         </form>
+        <a href="www.linkedin.com/phommasak-christy">
+            <img src={linkedin} alt="LinkedInLogo" height="30px" width="30px"/>
+        </a>
+
+        <a href="https://github.com/appletom">
+            <img src={github} alt="githublogo" height="30px" width="30px"/>
+        </a>
 
     </div>
 

@@ -52,16 +52,20 @@ const Resume = () => {
                 <h4 id="expheader">EY | Business Analyst | Houston, TX | 11/2015 - 12/2019</h4>
 
                 <ul>
-                    <li>Perform data analysis for 14+ small to medium-sized firms <br/>across the country.</li>
-                    <li>Manage competing priorities in dual Business Analyst role <br/>within Indirect and Global Tax.</li>                    <li>Document detailed, standard operational Business Analyst processes 
-                    <br/>for department-wide training initiative</li>
+                    <li>Perform data analysis for 14+ small to medium-sized firms across the country.</li>
+                    <br/>
+                    <li>Manage competing priorities in dual Business Analyst role within Indirect and Global Tax.</li>                    
+                    <br/>
+                    <li>Document detailed, standard operational Business Analyst processes for department-wide training initiative.</li>
                 </ul>    
                 
                 
                 <h4 id="expheader">GE | Transactions Analyst | Dallas, TX | 09/2014 - 11/2015</h4>
                 <ul>
-                    <li>Manage transactions queue and process equipment financing <br/> deals using Siebel Service.</li>
-                    <li>Quickly learn Transactions Analyst objectives,  <br/>leading to dual role within Inside Sales. </li>
+                    <li>Manage transactions queue and process equipment financing deals using Siebel Service.</li>
+                    <br/>
+                    <li>Quickly learn Transactions Analyst objectives, leading to dual role within Inside Sales. </li>
+                    <br/>
                     <li>Assist Inside Sales team and achieve weekly team revenue goals. </li>
                     
                 </ul>            
@@ -71,9 +75,10 @@ const Resume = () => {
 
         <hr/>
 
-        <div class="section">
+        <div class="section" >
             <h3>Community Involvement</h3>
                 <li>Rebuild Houston</li>
+                <br/>
                 <li>Barbara Bush Book Sort</li>
         </div>
         </div> 
