@@ -104,7 +104,7 @@ a {
 }
 
 .resume {
-  
+    text-align: center;
   margin-top: 2%;
 
   display: table;
@@ -128,7 +128,7 @@ a {
 
 
 .section {
-  
+
   line-height: 25px;
 
 }
@@ -147,19 +147,6 @@ a {
   text-align: center;
   word-spacing: 6px;
   padding: 10px;
-}
-
-ul {
-  display: table;
-}
-
-
-
-#expheader.li {
-
-  display: table-row; /* aha! */
-  text-align: left;
-
 }
 
 
@@ -320,11 +307,11 @@ input {
 }
 
 .sendBtn {
-  margin: 8%;
+  margin: 2%;
 }
 
 .contactBtn {
-  margin: 3%;
+  margin: 2%;
 }
 
 /* ---------- FOOTER ----------- */
