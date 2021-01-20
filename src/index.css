@@ -48,7 +48,7 @@ hr {
   top: 0;
   left: 0;
   opacity: .7;
-  width: 100%;
+  width: 100vw;
   height: 70vh;
   position: relative;
   z-index: -12;
@@ -64,7 +64,7 @@ hr {
 .Resumeheader {
   position: absolute;
   width: 80%;
-  top: 5%;
+  top: 13%;
   left: 10%;
   font-size: 30px;
   opacity: .8;
@@ -91,7 +91,7 @@ a {
 
 .navitem {
   padding: 3%;
-  font-size: 16pt;
+  font-size: 14pt;
 
 }
 
